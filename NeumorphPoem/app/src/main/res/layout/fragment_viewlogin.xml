@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.viewloginFragment">
+
+    <EditText
+        android:layout_width="0dp"
+        android:background="@drawable/backres"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:padding="12dp"
+        android:id="@+id/username"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias=".2"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"/>
+    <EditText
+        android:layout_width="0dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:padding="12dp"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:background="@drawable/backres"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias=".1"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D81B60"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintWidth_percent=".4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

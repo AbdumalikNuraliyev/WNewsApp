@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/btn.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/button.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/email.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/drawable/seachfon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_acc2.xml" value="0.196875" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_accountsettings.xml" value="0.196875" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_acount.xml" value="0.196875" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_sigin.xml" value="0.2" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_signup.xml" value="0.196875" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_notifications.xml" value="0.196875" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Users/Americano/AndroidStudioProjects/Instagram/app/src/main/res/menu/bottom_nav_menu.xml" value="0.196875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

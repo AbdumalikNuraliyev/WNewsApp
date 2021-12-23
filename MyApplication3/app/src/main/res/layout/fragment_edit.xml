@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashfon"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.EditFragment">
+<!--    <LinearLayout-->
+<!--        android:id="@+id/bir"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/iiki"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Change your word\n for your Library"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/iiki"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/uch"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/bir"-->
+<!--        >-->
+<!--        <EditText-->
+<!--            android:id="@+id/worded"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/back_style"-->
+<!--            android:text="Word"-->
+<!--            android:textColor="@color/white" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/uch"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/turt"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/iiki"-->
+<!--        >-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/translateed"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/back_style"-->
+<!--            android:text="translate"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/white" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/turt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/uch"-->
+<!--        >-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/saveed"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:backgroundTint="#F4511E"-->
+<!--            android:text="Save"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--    </LinearLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

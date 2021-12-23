@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#001A3E"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Enter Details"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/task"
+        android:inputType="text"
+        android:hint="Enter Task"
+        android:textColorHint="@color/white"
+        android:textColor="#BFBBBB"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:hint="Enter Time"
+        android:inputType="datetime"
+        android:textColorHint="@color/white"
+        android:textColor="#BFBBBB"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deadline"
+        android:hint="Enter deadline"
+        android:inputType="datetime"
+        android:textColorHint="@color/white"
+        android:textColor="#BFBBBB"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:hint="Enter description"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="#BFBBBB"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/high"
+            android:paddingRight="15dp"
+            android:textSize="20sp"
+            android:buttonTint="#BC1205"
+            android:textColor="@color/white"
+            android:text="High"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/medium"
+            android:textSize="20sp"
+            android:paddingRight="15dp"
+            android:buttonTint="#FF5722"
+            android:textColor="@color/white"
+            android:text="Medium"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/low"
+            android:buttonTint="#FF9800"
+            android:paddingRight="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Low"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/savebtn"
+        android:text="Save"/>
+
+</LinearLayout>

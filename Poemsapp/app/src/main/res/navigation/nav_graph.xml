@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sigFragment">
+
+    <fragment
+        android:id="@+id/sigFragment"
+        android:name="com.example.poemsapp.SigFragment"
+        android:label="fragment_sig"
+        tools:layout="@layout/fragment_sig" />
+    <fragment
+        android:id="@+id/regFragment"
+        android:name="com.example.poemsapp.RegFragment"
+        android:label="fragment_reg"
+        tools:layout="@layout/fragment_reg" />
+    <fragment
+        android:id="@+id/yunalishFragment"
+        android:name="com.example.poemsapp.yunalishFragment"
+        android:label="fragment_yunalish"
+        tools:layout="@layout/fragment_yunalish" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.poemsapp.userFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/poemFragment"
+        android:name="com.example.poemsapp.poemFragment"
+        android:label="fragment_poem"
+        tools:layout="@layout/fragment_poem" />
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="com.example.poemsapp.logFragment"
+        android:label="fragment_log"
+        tools:layout="@layout/fragment_log" />
+    <fragment
+        android:id="@+id/addPoemFragment"
+        android:name="com.example.poemsapp.AddPoemFragment"
+        android:label="fragment_add_poem"
+        tools:layout="@layout/fragment_add_poem" />
+</navigation>

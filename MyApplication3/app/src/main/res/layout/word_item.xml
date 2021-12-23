@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint"
+    android:background="@color/white"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/wordtranslate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#039BE5"
+        app:layout_constraintHorizontal_bias="0.17"
+        android:text="What"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/wordtranslate"
+        app:layout_constraintTop_toBottomOf="@id/word"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.17"
+        android:textColor="#039BE5"
+        android:text="Nima,Qanday"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="1dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

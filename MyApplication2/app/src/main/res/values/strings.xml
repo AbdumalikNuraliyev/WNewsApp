@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="favorite">Favorite</string>
+    <string name="content_description_favorite">Content description favorite</string>
+    <string name="search">Search</string>
+    <string name="more">More</string>
+    <string name="content_description_search">Content description search</string>
+    <string name="content_description_more">Content description more</string>
+</resources>

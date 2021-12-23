@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="26dp"
+    android:background="#F4511E">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:background="#F4511E"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/aylana"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/white"
+        android:text="Smart Muslim"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="smartmuslim2021@gmail.com"
+        android:layout_marginTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8DB8B8"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

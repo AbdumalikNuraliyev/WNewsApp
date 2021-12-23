@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/regesterFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.poem.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_regesterFragment"
+            app:destination="@id/regesterFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_yunalishFragment"
+            app:destination="@id/yunalishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regesterFragment"
+        android:name="com.example.poem.ui.RegesterFragment"
+        android:label="fragment_regester"
+        tools:layout="@layout/fragment_regester" >
+        <action
+            android:id="@+id/action_regesterFragment_to_yunalishFragment"
+            app:destination="@id/yunalishFragment" />
+        <action
+            android:id="@+id/action_regesterFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yunalishFragment"
+        android:name="com.example.poem.ui.yunalishFragment"
+        android:label="fragment_yunalish"
+        tools:layout="@layout/fragment_yunalish" >
+        <action
+            android:id="@+id/action_yunalishFragment_to_poemFragment"
+            app:destination="@id/poemFragment" />
+        <action
+            android:id="@+id/action_yunalishFragment_to_listuserFragment"
+            app:destination="@id/listuserFragment" />
+        <action
+            android:id="@+id/action_yunalishFragment_to_regesterFragment"
+            app:destination="@id/regesterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/poemFragment"
+        android:name="com.example.poem.ui.poemFragment"
+        android:label="fragment_poem"
+        tools:layout="@layout/fragment_poem" >
+        <action
+            android:id="@+id/action_poemFragment_to_yunalishFragment"
+            app:destination="@id/yunalishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listuserFragment"
+        android:name="com.example.poem.ui.listuserFragment"
+        android:label="fragment_listuser"
+        tools:layout="@layout/fragment_listuser" >
+        <action
+            android:id="@+id/action_listuserFragment_to_yunalishFragment"
+            app:destination="@id/yunalishFragment" />
+    </fragment>
+</navigation>

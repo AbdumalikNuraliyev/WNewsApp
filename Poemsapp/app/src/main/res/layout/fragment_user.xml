@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "@drawable/fons"
+    android:layout_height="match_parent"
+    android:id="@+id/top"
+    tools:context=".userFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="#4A148C"
+    android:id="@+id/bir"
+    android:layout_height="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="List of All Accounts"
+        android:textColor="#D3CFCF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintTop_toBottomOf="@id/bir"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    tools:listitem="@layout/user_items"
+        android:id="@+id/usertv"
+    android:layout_height="match_parent"/>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
